@@ -11,6 +11,12 @@ function newFunction() {
   return x + y;
 }
 
+function multiply() {
+  const x = 5;
+  const y = 20;
+  return x * y;
+}
+
 /**
  * Main function to test the app functionality
  */
@@ -22,12 +28,11 @@ function main() {
   console.log("Fetched Item:", fetchedItem);
 
   console.log("Formatted Date:", formatDate(new Date()));
-  if (false) {
-    const result = newFunction();
-    console.log("Result from newFunction:", result);
-  }
+
+  const result = newFunction();
+  console.log("Result from newFunction:", result);
 }
 
-module.exports = { main, addItem, getItem, formatDate, newFunction }; // Export main function
+module.exports = { main, addItem, getItem, formatDate, newFunction };
 
 main();
