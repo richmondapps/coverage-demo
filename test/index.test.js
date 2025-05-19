@@ -15,7 +15,7 @@ describe("Main function", () => {
 describe("newFunction", () => {
   it("should return the correct sum of two numbers", () => {
     const result = newFunction();
-    expect(result).toBe(30); // Test newFunction
+    expect(result).toBe(30);
   });
 });
 
