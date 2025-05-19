@@ -22,9 +22,10 @@ function main() {
   console.log("Fetched Item:", fetchedItem);
 
   console.log("Formatted Date:", formatDate(new Date()));
-
-  const result = newFunction();
-  console.log("Result from newFunction:", result);
+  if (false) {
+    const result = newFunction();
+    console.log("Result from newFunction:", result);
+  }
 }
 
 module.exports = { main, addItem, getItem, formatDate, newFunction }; // Export main function
