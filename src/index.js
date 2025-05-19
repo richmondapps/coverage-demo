@@ -11,11 +11,11 @@ function newFunction() {
   return x + y;
 }
 
-function multiply() {
-  const x = 5;
-  const y = 20;
-  return x * y;
-}
+// function multiply() {
+//   const x = 5;
+//   const y = 20;
+//   return x * y;
+// }
 
 /**
  * Main function to test the app functionality
